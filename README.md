@@ -2,7 +2,7 @@
 
 [Javatari embedded](https://github.com/ppeccin/javatari.js/tree/master/release/stable/5.0/embedded) in an Electron desktop application
 
-[Javatari](https://github.com/ppeccin/javatari.js) is a cross platform Atari 2600 emulator designed for the Web.
+[Javatari](http://javatari.org/) is a cross platform Atari 2600 emulator designed for the Web.
 And now you can play Atari 2600 games with touch controls on desktop, even when offline!
 
 ## Features
@@ -24,4 +24,4 @@ These features have been added without modifications to the emulator code, they 
 ## Credits
 - Paulo Peccino ([@ppeccino](https://twitter.com/ppeccin)) for his amazing cross platform Atari 2600 emulator [Javatari.js](http://javatari.org/).
 - David Crane ([@PitfallCreator](https://twitter.com/pitfallcreator)) for his adorable Pitfall game
-illustrated in the [picture 1](https://github.com/arcostasi/javatari-electron/blob/master/img/ps.png?raw=true).
+illustrated in the [picture 1](https://github.com/arcostasi/javatari-electron/blob/master/img/screenshot.png?raw=true).
