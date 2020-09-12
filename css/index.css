@@ -1,0 +1,140 @@
+/**
+ * Include a font .ttf using CSS.
+ */
+
+@font-face {
+  font-family: 'AtariSmall';
+  src: url('font/AtariSmall.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Correct the line height in all browsers.
+ */
+
+html {
+  line-height: 1.15;
+}
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #aaa;
+  background-color: #1e1e1e;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/**
+ * Add the correct font weight in Chrome
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in Chrome.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+canvas {
+  margin-right: 36px;
+}
+
+.tv {
+  margin-top: 32px !important;
+  height: 100%;
+  width: 100%;
+}
+
+.fps {
+  position: absolute;
+  top: 69px;
+  right: 82px;
+  color: #fff;
+  font-family: AtariSmall;
+  font-size: 1.5em;
+  text-rendering: optimizeSpeed;
+}
+
+.crt {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 782px;
+  height: 738px;
+  margin: auto;
+  z-index: 10;
+  background-image: url('../img/crt.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

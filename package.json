@@ -1,0 +1,14 @@
+{
+  "name": "javatari-electron",
+  "version": "1.0.0",
+  "description": "Javatari Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "custom-electron-titlebar": "^3.2.4",
+    "electron": "^9.3.0",
+    "electron-reload": "^1.5.0"
+  }
+}
