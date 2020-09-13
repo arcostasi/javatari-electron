@@ -3,7 +3,7 @@
 [Javatari embedded](https://github.com/ppeccin/javatari.js/tree/master/release/stable/5.0/embedded) in an Electron desktop application
 
 [Javatari](http://javatari.org/) is a cross platform Atari 2600 emulator designed for the Web.
-And now you can play Atari 2600 games with touch controls on desktop, even when offline!
+And now you can play Atari 2600 games with with your favorite joystick on desktop, even when offline!
 
 ## Features
 
